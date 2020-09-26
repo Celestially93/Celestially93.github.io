@@ -16,7 +16,7 @@ html {
 body {
     max-width: 900px;
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--secondary-color);
     padding: 1em
 }
 
@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 header {
@@ -42,12 +42,12 @@ header {
 }
 
 header>h1 {
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: var(--primary-color) ;
+    color: black ;
     padding: 1em
 }
 
@@ -102,7 +102,7 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color: var(--secondary-color)
+    color: var(--accent2-color);
 }
 
 nav a:hover {
