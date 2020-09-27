@@ -68,15 +68,15 @@ p {
 }
 
 .primary {
-    background-color: var(--primary-color)
+    background-color: #f4d06f;
 }
 
 .secondary {
-    background-color: var(--secondary-color)
+    background-color: #FFF8F0;
 }
 
 .accent1 {
-    background-color: var(--accent1-color)
+    background-color: #FF8811;
 }
 
 .accent2 {
