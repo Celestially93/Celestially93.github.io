@@ -80,7 +80,7 @@ p {
 }
 
 .accent2 {
-    background-color: var(--accent2-color)
+    background-color: #9DD9D2
 }
 
 nav {
@@ -106,6 +106,6 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: var (var(--secondary-color)) ;
+    color: var(--secondary-color);
     background-color: var(--primary-color)
 }
