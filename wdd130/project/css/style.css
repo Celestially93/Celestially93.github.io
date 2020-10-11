@@ -3,11 +3,10 @@ html {
 
 }
 
-header {
-    background-color: #EAE0CC;
-
-
-}
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 
 body {
     background-color: #C9ADA1;
