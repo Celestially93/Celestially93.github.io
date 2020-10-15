@@ -4,7 +4,7 @@ body {
 
 header,
 footer {
-    background-color: #000;
+    background-color: #69626D;
     color: #fff;
     padding: 10px;
 }
@@ -21,7 +21,7 @@ h2 {
 
 h2,
 #currentdate {
-    color: yellow;
+    color: #fff;
 }
 
 main {
@@ -29,7 +29,7 @@ main {
     border: 1px solid #999;
     padding: 10px;
     max-width: 500px;
-    background-color: #abe;
+    background-color: #CBBEB3;
     box-shadow: 0 0 30px;
 }
 
