@@ -60,7 +60,6 @@ section {
 
 
 nav {
-    display: ;
     color: goldenrod;
     background-color: #798478;
     padding: 11px;
@@ -77,6 +76,7 @@ nav {
 nav ul {
     display: flex;
     list-style-type: none;
+    
     
     
 
