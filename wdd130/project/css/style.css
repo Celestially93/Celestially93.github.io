@@ -35,10 +35,13 @@ header img {
 
 }
 
-#hero-image {
-    width: fit-content;
+.hero-image {
+    width: 100%;
 
 
+}
+div img.hero-image {
+    width: 100%;
 }
 
 body {
