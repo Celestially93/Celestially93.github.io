@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 html {
     background-color: #EAE0CC;
 
@@ -10,25 +14,72 @@ footer {
     margin: 0 auto;
 }
 
-body {
-    background-color: #C9ADA1;
-    margin: 0 auto;
-    padding: 1.5em;
-    
+header {
+    color: goldenrod;
+    background-color: #798478;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 125px;
+    height: auto;
 
 }
 
-nav {
-    background-color: #EAE0CC;
-    padding: 1em;
-
-}
-
-#first-section {
+.heading {
+    font-family: 'Dancing Script', 'Satisfy', cursive;
     background-color: #798478;
 
 }
 
-#second-section {
-    background-color: #EAE0CC;
+#hero-image {
+    width: fit-content;
+
+
 }
+
+body {
+    background-color: #C9ADA1;
+    margin: 0 auto;
+    padding: 1.5em;
+    font-family: 'Quicksand', Helvetica, sans-serif;
+
+
+}
+
+section {
+    background-color: #EAE0CC;
+    padding: 10px;
+}
+
+
+nav {
+    display: ;
+    color: goldenrod;
+    background-color: #798478;
+    padding: 10px;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+    
+
+}
+
+nav a {
+    color:  goldenrod;
+}
+
