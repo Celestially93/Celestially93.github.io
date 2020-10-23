@@ -14,6 +14,6 @@ function footWear() {
     }
 
     //Output: Display the shoes for "today's weather" to the user.
-    document.getElementById("output").innerHTML = `${shoes} is your footwear for today's weather!`;
+    document.getElementById("output").innerHTML = `${shoes} is your footwear for today's weather!👣`;
 
 }
