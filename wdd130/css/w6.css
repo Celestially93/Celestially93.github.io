@@ -20,14 +20,14 @@ body {
     background-color: red;
     grid-column-start: 1;
     grid-column-end: 3;
-    
+
 }
 
 .green1 {
     width: 200px;
     height: 200px;
     background-color: green;
-    
+
 
 }
 
@@ -44,5 +44,226 @@ body {
     background-color: blue;
     grid-column-start: 1;
     grid-column-end: 3;
-   
+
+}
+
+.content2 {
+    display: inline-flex;
+
+
+
+}
+
+.red2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+
+}
+
+.green2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: -20px;
+    margin-top: 20px
+}
+
+.gold2 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    margin-left: -20px;
+    margin-top: 30px;
+
+
+}
+
+.blue2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-left: -20px;
+    margin-top: 40px;
+
+
+}
+
+.content3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: flex-start;
+    column-gap: 20px;
+
+}
+
+.red3 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+
+}
+
+.green3 {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.gold3 {
+    width: 100%;
+    height: 100px;
+    background-color: gold;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.blue3 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.content4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    justify-items: center;
+
+}
+
+.red4 {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+
+}
+
+.green4 {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.gold4 {
+    width: 100%;
+    height: 100px;
+    background-color: gold;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.blue4 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.content5 {
+    display: block;
+}
+
+.red5 {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+
+
+}
+
+.green5 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+
+}
+
+.gold5 {
+    width: 100%;
+    height: 100%;
+    background-color: gold;
+
+
+
+}
+
+.blue5 {
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+
+}
+
+.content6 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+
+}
+
+.red6 {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    grid-column:1/3
+    
+
+
+
+}
+
+.green6 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    grid-column: 1;
+    grid-row: 2/4;
+}
+.gold6 {
+    width: 200px;
+    height: 500px;
+    background-color: gold;
+    grid-column:3/4;
+    grid-row: 2/3;
+
+
+
+}
+
+.blue6 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    grid-column: 2;
+    z-index: 1;
+
+
 }
