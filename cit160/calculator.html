@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6: Simple Calculator | Celestial Destacamento</title>
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+
+<body>
+    <header>
+        <h1>Week 6: Simple Calculator</h1>
+        <h2>Celestial Destacamento</h2>
+    </header>
+    <main>
+        <h3>Math is Fun!</h3>
+        <label><input type="text" id="firstNumber" size="4"></label>
+        <select name="operator" id="select-operator">
+            <option value="addition">+</option>
+            <option value="subtraction">-</option>
+            <option value="multiplication">*</option>
+            <option value="division">/</option>
+        </select>
+        <label><input type="text" id="secondNumber" size="4"></label> =
+        <label><input type="text" id="userAnswer" size="4"></label>
+        <label><button onclick="calculate()">Check</button></label>
+        <hr>
+        <p><span id="output"></span></p>
+    </main>
+    <footer>
+        &copy;2020 &bull; Celestial Destacamento &bull; BYU-Idaho &bull; CIT 160
+    </footer>
+    <script src="script/calculator.js"></script>
+</body>
+
+</html>
