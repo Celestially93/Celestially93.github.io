@@ -5,7 +5,7 @@ function calculate() {
     let operator = parseFloat(document.getElementById("select-operator").value);
     let userAnswer = parseFloat(document.getElementById("userAnswer").value);
 
-    //Processing: Use switch & compute.
+    //Processing: Use switch case & compute.
 
     let answer;
     let message;
