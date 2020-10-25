@@ -2,8 +2,8 @@ function calculate() {
     //Input: Let the user input the number and the operator.
     let firstnumber = parseFloat(document.getElementById("firstNumber").value);
     let secondnumber = parseFloat(document.getElementById("secondNumber").value);
-    let operator = parsefloat(document.getElementById("select-operator").value);
-    let userAnswer = parsefloat(document.getElementById("userAnswer").value);
+    let operator = parseFloat(document.getElementById("select-operator").value);
+    let userAnswer = parseFloat(document.getElementById("userAnswer").value);
 
     //Processing: Use switch & compute.
 
@@ -11,37 +11,25 @@ function calculate() {
     let message;
     switch (operator) {
         case "addition":
-            answer = parseFloat(firstnumber + secondnumber);
-            if (userAnswer == answer){
-                message = "Correct!🏆"
-            } else {
-                message = "Incorrect. Try again!🌼"
-            }
+            answer = firstnumber + secondnumber;
             break;
         case "subtraction":
-            answer = parseFloat(firstnumber - secondnumber);
-            if (userAnswer == answer){
-                message = "Correct!🏆"
-            } else {
-                message = "Incorrect. Try again!🌼"
-            }
+            answer = firstnumber - secondnumber;
+
             break;
         case "multiplication":
-            answer = parseFloat(firstnumber * secondnumber);
-            if (userAnswer == answer){
-                message = "Correct!🏆"
-            } else {
-                message = "Incorrect. Try again!🌼"
-            }
+            answer = firstnumber * secondnumber;
+
             break;
         case "division":
-            answer = parseFloat(firstnumber / secondnumber);
-            if (userAnswer == answer){
-                message = "Correct!🏆"
-            } else {
-                message = "Incorrect. Try again!🌼"
-            }
-            break;         
+            answer = firstnumber / secondnumber;
+
+    }
+
+    if (userAnswer == answer) {
+        message = "Correct!🏆";
+    } else {
+        message = "Incorrect. Try again!🌼";
     }
 
 
