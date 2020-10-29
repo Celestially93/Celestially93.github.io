@@ -2,7 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-
+@media screen and (max-width: 550px) {
+    .______ {
+      display: block;
+    }
+  }
 
 html {
     background-color: #EAE0CC;
