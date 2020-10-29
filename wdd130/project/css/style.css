@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+@media screen and (max-width: 550px) {
+    .______ {
+      display: block;
+    }
+  }
+
 html {
     background-color: #EAE0CC;
 
@@ -15,7 +21,7 @@ footer {
 }
 
 header {
-    color: goldenrod;
+    color: #FFB100;
     background-color: #798478;
     padding: 10px;
     display: flex;
@@ -37,6 +43,8 @@ header img {
 
 .hero-image {
     width: 100%;
+    grid-column: 1/3;
+    
 
 
 }
@@ -61,7 +69,7 @@ section {
 
 
 nav {
-    color: goldenrod;
+    color: #FFB100;
     background-color: #798478;
     padding: 11px;
     
@@ -82,6 +90,47 @@ nav ul {
 }
 
 nav a {
-    color: goldenrod;
+    color: #FFB100;
 
 }
+
+main { display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5px
+}
+.family-search { grid-column: 1/3;
+    grid-row: 4/4;
+
+}
+.come-stay {
+    background-color: #FFB100;
+    grid-column: 1/3;
+    
+}
+button {margin-left: 45%;}
+
+.wedding-recepcion {
+    grid-row: 3/5;
+}
+h2 {text-align: center;
+
+}
+a:hover{
+    color: #FFEBC6;
+}
+a:active{
+    color: #C9ADA1;
+}
+.home-image {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+
+}
+.wedding-image {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+
