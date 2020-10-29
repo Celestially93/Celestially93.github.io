@@ -35,9 +35,9 @@ header img {
 
 }
 
-.heading {
+h1 {
     font-family: 'Dancing Script', 'Satisfy', cursive;
-    background-color: #798478;
+    
 
 }
 
@@ -75,15 +75,11 @@ nav {
     color: #FFB100;
     background-color: #798478;
     padding: 11px;
-
-}
-
-.main-nav {
     margin: auto;
     text-align: center;
 
-
 }
+
 
 nav ul {
     display: flex;
@@ -150,16 +146,23 @@ a:active {
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
 }
-
 .social {
-    display: inline-flex;
-    margin-left: 60%;
-    padding: 1px;
-   
+    float:right;
+    margin-right: 90px;
 }
-.last-section {
+
+footer {
     
     color: #FFB100;
     background-color: #798478;
     padding: 11px;
+}
+.address {
+    text-align: left;
+    margin-left: 20%;
+  
+   
+}
+.copy-right {
+    text-align: center;
 }
