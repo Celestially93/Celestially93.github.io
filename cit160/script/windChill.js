@@ -1,4 +1,7 @@
 //Input: Get the temperatire and windspeed from the user.
+//Process: Use if else statement and call function.
+//Output: Alert if the temperature or windspeed is too high or low.
+//Output: Show the calcuation if the requirements for temperature and windspeed is met.
 
 
 function doInputOutput() {
