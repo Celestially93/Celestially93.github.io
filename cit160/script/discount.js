@@ -8,7 +8,8 @@ function totalAmountdue() {
     let totalamountdue;
 
     //Processing:
-    if ( dayOfWeek == 2 && dayOfWeek == 3 && (subtotal >=50)) {
+    if ( dayOfWeek == 2 ||
+         dayOfWeek == 3 && (subtotal >=50)) {
         totalamountdue = partialsubone + partialtax; 
     } else {
         totalamountdue = subtotal * .06 + subtotal;
