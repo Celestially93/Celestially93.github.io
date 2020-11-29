@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap');
 
 :root {
-    --primary-color:  #f5cac3;
-    --secondary-color:  #f7ede2;
-    --accent1-color:  #999;
+    --primary-color: #f5cac3;
+    --secondary-color: #f7ede2;
+    --accent1-color: #999;
     --accent2-color: #84a59d;
     --heading-font: "Yellow Tail";
     --paragraph-font: Noto Sans KR, Helvetica, sans-serif
@@ -17,12 +17,13 @@ html {
 header {
     padding: 1em;
     text-align: center;
-    color:var(--accent2-color);
-    background-color:  #f5cac3;
+    color: var(--accent2-color);
+    background-color: #f5cac3;
     font-family: 'Yellowtail', cursive;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: var(--accent2-color);
 }
 
@@ -44,8 +45,9 @@ body {
     margin: auto;
     text-align: center;
 }
+
 .colorpalette th {
-    background-color:var(--accent1-color);
+    background-color: var(--accent1-color);
 }
 
 .colorpalette td {
