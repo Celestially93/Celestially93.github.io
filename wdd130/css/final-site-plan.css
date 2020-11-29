@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap');
+
+:root {
+    --primary-color:  #f5cac3;
+    --secondary-color:  #f7ede2;
+    --accent1-color:  #999;
+    --accent2-color: #84a59d;
+    --heading-font: "Yellow Tail";
+    --paragraph-font: Noto Sans KR, Helvetica, sans-serif
+}
+
+html {
+    background-color: var(--primary-color);
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color:var(--accent2-color);
+    background-color:  #f5cac3;
+    font-family: 'Yellowtail', cursive;
+}
+
+h2, h3 {
+    color: var(--accent2-color);
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+    padding: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+
+.colorpalette {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+.colorpalette th {
+    background-color:var(--accent1-color);
+}
+
+.colorpalette td {
+    width: 25%;
+    height: 3em
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color)
+}
