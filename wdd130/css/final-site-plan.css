@@ -70,3 +70,21 @@ body {
 .accent2 {
     background-color: var(--accent2-color)
 }
+
+nav {
+    background-color: var(--primary-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav li {
+    padding: 10px;
+}
