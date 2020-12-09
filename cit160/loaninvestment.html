@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 11: Loan and Investment Calculator | Celestial Destacamento</title>
+    <link rel="stylesheet" href="css/template.css">
+</head>
+
+<body>
+    <header>
+        <h1>Week 11: Loan and Investment Calculator</h1>
+        <h2>Celestial Destacamento</h2>
+    </header>
+    <main>
+        <h2>Investment Calculator</h2>
+        <label>Amount Invested (Principal)<input type="text" id="principal" size="5"></label>
+        <label>Annual Rate (Example: .08)<input type="text" id="annualRate" size="5"></label>
+        <label>Number of Years<input type="text" id="years" size="5"></label>
+        <label>Periods Per Year<input type="text" id="periodsPerYear" size="5"></label>
+        <label><button onclick="doFV ()">Compute Future Value</button></label>
+        <hr>
+        <p><span id="investment"></span> </p>
+        <hr>
+       <h2>Loan Calculator</h2>
+        <label>Amount Borrowed (Principal): <input type="text" id="principal" size="5"></label>
+        <label>Annual Interest Rate (Example: .065): <input type="text" id="annualRate" size="5"></label>
+        <label>Number of Years: <input type="text" id="years" size="5"></label>
+        <label>Payments Per Year: <input type="text" id="paymentsPerYear" size="5"></label>
+        <label><button onclick="doPayment()">Compute Payment</button></label>
+        <p><span id="output"></span></p>
+        <label>Number of Payments Paid to Date: <input type="text" id="numberOfPaymentPaidToDate" size="5"></label>
+        <label><button onclick="doBalance()">Compute Payoff Amount</button></label>
+        <p><span id="output1"></span></p>
+        <hr>
+        
+        
+    </main>
+    <footer>
+        &copy;2020 &bull; Celestial Destacamento &bull; BYU-Idaho &bull; CIT 160
+    </footer>
+    <script src="script/loaninvestment.js"></script>
+</body>
+
+</html>
