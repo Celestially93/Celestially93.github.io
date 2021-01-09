@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Libre+Franklin:wght@100;400&display=swap');
+
+:root {
+    --primary-color: #FFC9B9;
+    --secondary-color: #FEFEE3;
+    --accent1-color: #999;
+    --accent2-color: #84a59d;
+    --heading-font: 'Pacifico', cursive;
+    --paragraph-font: 'Inter', sans-serif;
+}
+
+h1 {
+   font-family: var(--heading-font)
+}
+header, footer {
+    background-color: var(--primary-color);
+    border-radius: 35px;
+    text-align: center;
+    padding: 25px;
+    font-family: var(--paragraph-font);
+}
+body {
+    font-family: var(--paragraph-font);
+   max-width: 1100px;
+   margin-left: 90px;
+}
+img {
+    float: right;
+    margin-top: -100px;
+    border-radius: 35px;
+}
