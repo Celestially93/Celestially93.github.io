@@ -45,7 +45,7 @@ img {
       width: 100%;
     }
     img {
-        position: static;
+       display: none;
     }
   }
   
