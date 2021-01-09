@@ -41,15 +41,7 @@ img {
     border-radius: 35px;
 }
 
-@media only screen and (max-width: 600px) {
-    main {
-        max-width: auto;
-    }
-
-    header {
-        display: block;
-    }
-
+@media only screen and (max-width: 700px) {
     img {
         display: block;
         margin-left: auto;
