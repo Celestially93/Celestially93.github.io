@@ -17,8 +17,7 @@ body {
     margin-right: auto;
 }
 
-img {
-    margin-top: 1rem;
-	width: 200px;
-	height: auto;
-}
+@media print {
+	img {
+		display: none;
+    }
