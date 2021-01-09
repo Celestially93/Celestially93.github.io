@@ -44,11 +44,8 @@ img {
     main {
       width: 100%;
     }
-    .header {
-        display: flex;
-    }
     img {
-        display: block;
+        position: static;
     }
   }
   
