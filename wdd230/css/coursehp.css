@@ -44,4 +44,15 @@ img {
     main {
       width: 100%;
     }
+    img {
+        display: none;
+    }
   }
+  @media only screen and (min-width: 768px) {
+    main {
+        width: 100%;
+      }
+      img {
+          display: none;
+      }
+  } 
