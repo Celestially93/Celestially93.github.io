@@ -45,11 +45,7 @@ img {
       width: 100%;
     }
     img {
-        display: none;
+        display: block;
     }
   }
-  @media only screen and (min-width: 768px) {
-    main {
-        width: 100%;
-      }
-  } 
+  
