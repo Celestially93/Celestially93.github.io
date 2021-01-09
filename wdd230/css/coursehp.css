@@ -31,7 +31,7 @@ footer {
 
 body {
     font-family: var(--paragraph-font);
-    
+
 
 }
 
@@ -40,8 +40,19 @@ img {
     margin-top: -100px;
     border-radius: 35px;
 }
+
 @media only screen and (max-width: 600px) {
-    header {
-     display: block;
+    main {
+        max-width: auto;
     }
-  }
+
+    header {
+        display: block;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
