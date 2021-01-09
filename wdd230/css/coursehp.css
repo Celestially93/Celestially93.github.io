@@ -44,6 +44,9 @@ img {
     main {
       width: 100%;
     }
+    header {
+        display: block;
+    }
     img {
         display: block;
     }
