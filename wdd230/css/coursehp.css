@@ -44,7 +44,7 @@ img {
     main {
       width: 100%;
     }
-    div {
+    .header {
         display: block;
     }
     img {
