@@ -10,6 +10,11 @@
     --paragraph-font: 'Inter', sans-serif;
 }
 
+main {
+    margin: auto;
+    
+}
+
 h1 {
    font-family: var(--heading-font)
 }
