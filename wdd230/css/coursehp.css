@@ -41,17 +41,3 @@ img {
     border-radius: 35px;
 }
 
-@media only screen and (max-width: 800px) {
-    main {
-        margin-left: 1px;
-        margin-right: 1px;
-    }
-    header {
-        display: block;
-    }
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
