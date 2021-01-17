@@ -52,6 +52,12 @@ footer {
 }
 img {
     border-radius: 35px;
+    
+}
+h3 {
+    background-color: var(--accent2-color);
+    padding: 25px;
+    border-radius: 35px;
 }
 .ruleofthirds {
     grid-column: 1/1;
