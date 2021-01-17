@@ -93,3 +93,6 @@ h3 {
     box-shadow: 5px 5px 5px var(--accent2-color);
     border-radius: 35px;
 }
+#ruleofthirds {
+    background-color: var(--primary-color);
+}
