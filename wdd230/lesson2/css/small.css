@@ -21,6 +21,7 @@
         padding: 10px;
         box-shadow: 5px 5px 5px var(--accent2-color);
         border-radius: 35px;
+        width: 8.33%;
         
     }
     .alignment {
@@ -30,6 +31,7 @@
         padding: 10px;
         box-shadow: 5px 5px 5px var(--accent2-color);
         border-radius: 35px;
+        width: 8.33%;
         
     }
     .contrast {
@@ -39,5 +41,6 @@
         padding: 10px;
         box-shadow: 5px 5px 5px var(--accent2-color);
         border-radius: 35px;
+        width: 8.33%;
     }
 }
