@@ -2,67 +2,7 @@
     h1 {
         font-size: 35px;
     }
-    header,
-footer {
-    background-color: var(--primary-color);
-    border-radius: 35px;
-    text-align: center;
-    padding: 20px;
-    font-family: var(--paragraph-font);
-    max-width: 700px;
-    
-}
-
-body {
-    font-family: var(--paragraph-font);
-
-
-}
-main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto auto;
-    grid-gap: 20px;
-    max-width: 700px;
-   
-    
-}
-header {
-    grid-column: 1/1;
-    grid-row: 1/2;
-}
-footer {
-    grid-column: 1/1;
-}
-img {
-    border-radius: 35px;
-}
-.ruleofthirds {
-    grid-column: 1/1;
-    grid-row: 2/3;
-    border: 1px solid var(--accent2-color);
-    padding: 10px;
-    box-shadow: 5px 5px 5px var(--accent2-color);
-    border-radius: 35px;
-    
-}
-.alignment {
-    grid-column: 1/1;
-    grid-row: 3/4;
-    border: 1px solid var(--accent2-color);
-    padding: 10px;
-    box-shadow: 5px 5px 5px var(--accent2-color);
-    border-radius: 35px;
-    
-}
-.contrast {
-    grid-column: 1/1;
-    grid-row: 4/5;
-    border: 1px solid var(--accent2-color);
-    padding: 10px;
-    box-shadow: 5px 5px 5px var(--accent2-color);
-    border-radius: 35px;
-}
-   
-      
+    body {
+        font-size: 25px; 
+    }
 }
