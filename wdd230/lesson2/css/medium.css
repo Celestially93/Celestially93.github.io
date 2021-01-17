@@ -5,4 +5,52 @@
     body {
         font-size: 25px; 
     }
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    body {
+        font-size: 10px;
+    }
+
+    header {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    footer {
+        grid-column: 1/2;
+    }
+    .ruleofthirds {
+        grid-column: 1/1;
+        grid-row: 2/3;
+        border: 1px solid var(--accent2-color);
+        padding: 10px;
+        box-shadow: 5px 5px 5px var(--accent2-color);
+        border-radius: 35px;
+        
+        
+    }
+    .alignment {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        border: 1px solid var(--accent2-color);
+        padding: 10px;
+        box-shadow: 5px 5px 5px var(--accent2-color);
+        border-radius: 35px;
+        
+    }
+    .contrast {
+        grid-column: 1/1;
+        grid-row: 3/4;
+        border: 1px solid var(--accent2-color);
+        padding: 10px;
+        box-shadow: 5px 5px 5px var(--accent2-color);
+        border-radius: 35px;
+    }
 }
