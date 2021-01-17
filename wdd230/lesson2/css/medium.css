@@ -21,6 +21,11 @@
         grid-column: 1/4;
         grid-row: 4/4;
     }
+    h3 {
+        background-color: var(--accent2-color);
+        padding: 25px;
+        border-radius: 35px;
+    }
     .ruleofthirds {
         grid-column: 1/1;
         grid-row: 2/3;
