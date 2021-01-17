@@ -37,7 +37,7 @@ body {
 
 img {
     float: right;
-    margin-top: -100px;
     border-radius: 35px;
+    width: 200px;
 }
 
