@@ -1,4 +1,13 @@
 @media only screen and (max-width: 600px) {
+    [class*="ruleofthirds"] {
+        width: 100%
+    }
+    [class*="alignment"] {
+        width: 100%
+    }
+    [class*="contrast"] {
+        width: 100%
+    }
     main {
         display: grid;
         grid-template-columns: auto;
@@ -21,7 +30,7 @@
         padding: 10px;
         box-shadow: 5px 5px 5px var(--accent2-color);
         border-radius: 35px;
-        width: 8.33%;
+        
         
     }
     .alignment {
@@ -31,7 +40,6 @@
         padding: 10px;
         box-shadow: 5px 5px 5px var(--accent2-color);
         border-radius: 35px;
-        width: 8.33%;
         
     }
     .contrast {
@@ -41,6 +49,5 @@
         padding: 10px;
         box-shadow: 5px 5px 5px var(--accent2-color);
         border-radius: 35px;
-        width: 8.33%;
     }
 }
