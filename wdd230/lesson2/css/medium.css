@@ -19,6 +19,7 @@
 
     footer {
         grid-column: 1/4;
+        grid-row: 4/4;
     }
     .ruleofthirds {
         grid-column: 1/1;
