@@ -16,12 +16,12 @@
 
     header {
         grid-column: 1/1;
-       
+
     }
 
     footer {
         grid-column: 1/1;
-       
+
     }
 
     h3 {
@@ -56,5 +56,8 @@
         box-shadow: 5px 5px 5px var(--accent2-color);
         border-radius: 35px;
     }
-    img { width: 100%;}
+
+    img {
+        width: 100%;
+    }
 }

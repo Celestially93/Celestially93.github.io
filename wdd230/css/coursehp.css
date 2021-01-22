@@ -10,11 +10,7 @@
     --paragraph-font: 'Inter', sans-serif;
 }
 
-main {
-    margin-left: 100px;
-    margin-right: 100px;
 
-}
 
 h1 {
     font-family: var(--heading-font)
@@ -24,13 +20,13 @@ header,
 footer {
     background-color: var(--primary-color);
     border-radius: 35px;
-    text-align: center;
     padding: 25px;
     font-family: var(--paragraph-font);
 }
 
 body {
     font-family: var(--paragraph-font);
+    padding: 25px;
 
 
 }
@@ -38,6 +34,5 @@ body {
 img {
     float: right;
     border-radius: 35px;
-    width: 200px;
+    
 }
-

@@ -1,29 +1,31 @@
-@media only screen and (max-width: 800px) and (min-width: 501px) {
+@media only screen and (max-width: 799px) and (min-width: 100px) {
+   
+
+
     h1 {
-        font-size: 45px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 40px;
-
+        font-size: 15px;
     }
 
-
     body {
-        font-size: 30px;
+        font-size: 20px;
         display: grid;
         grid-template-columns: auto;
     }
-
     header {
         display: block;
         text-align: center;
+        
     }
-
     img {
         float: none;
         margin-left: auto;
         margin-right: auto;
-    }
+        
 
+
+    }
 }
