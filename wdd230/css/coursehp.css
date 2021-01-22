@@ -22,6 +22,7 @@ footer {
     border-radius: 35px;
     padding: 25px;
     font-family: var(--paragraph-font);
+    text-align: center;
 }
 
 body {
@@ -35,4 +36,8 @@ img {
     float: right;
     border-radius: 35px;
     
+}
+
+header {
+    text-align: center;
 }
