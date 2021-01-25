@@ -2,4 +2,11 @@
    body {
        font-size: 20px;
    }
+   header {
+    display: block;
+
+}
+li {
+    display: block;
+}
 }

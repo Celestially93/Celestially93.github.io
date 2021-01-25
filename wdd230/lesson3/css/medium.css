@@ -8,5 +8,12 @@
     body {
         font-size: 35px;
     }
+    header {
+        display: block;
+
+    }
+    li {
+        display: block;
+    }
     
 }
