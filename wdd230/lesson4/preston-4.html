@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Celestial Destacamento">
+    <meta name="description"
+        content="This page is a prepartion for the site build of the weather site project(Cloud Update) focusing on the town pages.">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="large.css">
+    <title>Cloud Update: Preston Town Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="sitename">
+            <img src="images/icon.png" width="50" alt="Cloud Update Logo">
+
+            <h1>Cloud Update</h1>
+        </div>
+        <p>Any way the wind blows!</p>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h2 class="town">Preston Idaho</h2>
+        <p class="border">Hero w/ Weather Summary</p>
+        <p class="border">5 Day Forecast</p>
+        <p class="border">Article</p>
+        <p class="border">Contact Information</p>
+
+
+        <footer>
+            &copy; Cloud Update | Attributions | Celestial Destacamento
+            <p id="currentDate"></p>
+
+        </footer>
+    </main>
+    <script src="scripts/preston-4.js"></script>
+</body>
+
+</html>
