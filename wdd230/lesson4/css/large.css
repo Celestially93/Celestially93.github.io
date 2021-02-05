@@ -4,6 +4,16 @@
         max-width: 960px;
         margin: auto;
     }
+    nav ul li {
+        padding: 1px 3px;
+        
+    }
+    nav ul li a {
+        color: white;
+    }
+    nav ul li a:hover {
+        background-color: #F2BB05;
+    }
     
 }
 

@@ -27,4 +27,10 @@
         padding: .8rem;
         border-right: 1px solid;
     }
+    nav ul li a {
+        color: white;
+    }
+    nav ul li a:hover {
+        background-color: #F2BB05;
+    }
 }
