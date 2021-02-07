@@ -1,0 +1,20 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    main {
+        max-width: 960px;
+        margin: auto;
+    }
+    nav ul li {
+        padding: 1px 3px;
+        
+    }
+    nav ul li a {
+        color: white;
+    }
+    nav ul li a:hover {
+        background-color: #F2BB05;
+    }
+    
+}
+
+/*end large */

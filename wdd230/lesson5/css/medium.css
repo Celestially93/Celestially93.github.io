@@ -1,0 +1,36 @@
+@media only screen and (min-width: 560px) {
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav {
+        background-color: #023047;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .8rem;
+        border-right: 1px solid;
+    }
+    nav ul li a {
+        color: white;
+    }
+    nav ul li a:hover {
+        background-color: #F2BB05;
+    }
+}
