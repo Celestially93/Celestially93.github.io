@@ -67,6 +67,11 @@
         height: 315px;
     }
     
+    .weather-forecast {
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
     
 }
 
