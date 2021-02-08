@@ -23,8 +23,8 @@
     }
     .weather-summary {
         position: absolute;
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-left: 700px;
+        margin-top: -250px;
         line-height: 8px;
         background-color:rgb(2,48,71, 0.9);
         padding: 10px;

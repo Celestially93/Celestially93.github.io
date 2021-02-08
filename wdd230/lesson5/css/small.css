@@ -117,7 +117,7 @@ nav ul.hide {
 }
 .weather-summary {
     position: absolute;
-    margin-left: 250px;
+    margin-left: 230px;
     margin-top: -180px;
     line-height: 8px;
     border: 1px solid var(--secondary-color);
