@@ -56,6 +56,16 @@
         background-color: #F0F0C9;
         
     }
+    .people {
+        display: inline-block;
+        width: 478px;
+        height: 315px;
+    }
+    .flower {
+        display: inline-block;
+        width: 478px;
+        height: 315px;
+    }
     
     
 }
