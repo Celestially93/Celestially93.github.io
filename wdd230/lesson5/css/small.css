@@ -142,20 +142,24 @@ nav ul.hide {
     color: black;
     background-color: #F0F0C9;
 }
-.contacts p {
+.contacts p, h4 {
     position: relative;
     display: block;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    line-height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+
+
 
 }
 .socials {
+    margin-top: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
     background-color: #F0F0C9;
     
 }
