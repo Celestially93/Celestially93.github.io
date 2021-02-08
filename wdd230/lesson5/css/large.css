@@ -31,6 +31,31 @@
         border: #023047 1px solid;
         box-shadow: #023047 5px;
     }
+    .contacts {
+        text-align: left;
+        display: block;
+        padding: 10px;
+        margin-top: 318px;
+        color: black;
+        background-color: #F0F0C9;
+    }
+    .contacts p {
+        position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        line-height: 15px;
+    
+    }
+    .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        background-color: #F0F0C9;
+        
+    }
     
     
 }
