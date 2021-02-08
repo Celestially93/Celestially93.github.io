@@ -119,10 +119,27 @@ nav ul.hide {
     position: absolute;
     margin-left: 250px;
     line-height: 8px;
+    border: 1px solid var(--secondary-color);
+    box-shadow: #023047 5px;
     background-color:rgb(2,48,71, 0.9);
     padding: 10px;
 }
-.weather-summary h2,p {
+.weather-summary h2 {
     color: White;
     font-family: var(--paragraph-font);
+}
+.socials {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-left: 150px;
+    
+}
+.contacts {
+    display: block;
+    text-align: left;
+    line-height: 8px;
+    padding: 10px;
+    margin-top: 200px;
+    margin-left: 150px;
 }

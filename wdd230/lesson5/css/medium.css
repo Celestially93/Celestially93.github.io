@@ -33,4 +33,14 @@
     nav ul li a:hover {
         background-color: #F2BB05;
     }
+    .weather-summary {
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 5px;
+        line-height: 8px;
+        border: #023047 1px solid;
+        box-shadow: #023047 5px;
+        background-color:rgb(2,48,71, 0.9);
+        padding: 10px;
+    }
 }
