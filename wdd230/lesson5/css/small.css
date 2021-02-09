@@ -255,4 +255,9 @@ nav ul.hide {
     
     
 }
-
+#pancakes {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
