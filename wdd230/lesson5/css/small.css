@@ -162,7 +162,7 @@ nav ul.hide {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #F0F0C9;
+   
     
 }
 
@@ -264,3 +264,12 @@ nav ul.hide {
 .author {
     font-style: italic;
 }
+
+.map {
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+

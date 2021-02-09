@@ -52,7 +52,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        padding: 20px;
         background-color: #F0F0C9;
         
     }
@@ -65,6 +65,9 @@
        float: right;
        clear: both;
        padding: 10px;
+   }
+   .map {
+       width:200px;
    }
     
     
