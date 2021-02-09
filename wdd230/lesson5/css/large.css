@@ -56,13 +56,16 @@
         background-color: #F0F0C9;
         
     }
-    .bridge {
-        display: block;
-        
-    }
-    .flower {
+    
+    .people {
         display: none;
     }
+   .climb {
+       display: block;
+       float: right;
+       clear: both;
+       padding: 10px;
+   }
     
     
     
