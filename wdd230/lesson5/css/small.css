@@ -261,3 +261,6 @@ nav ul.hide {
     padding: 20px;
     text-align: center;
 }
+.author {
+    font-style: italic;
+}
