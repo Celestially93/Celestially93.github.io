@@ -54,6 +54,7 @@
         align-items: center;
         padding: 20px;
         background-color: #F0F0C9;
+       
         
     }
     
@@ -67,9 +68,14 @@
        padding: 10px;
    }
    .map {
-       width:200px;
-   }
-    
+       float: left;
+       clear: both;
+       margin-top: -220px;
+       
+     }
+   .map img {
+    width: 300px;
+   } 
     
     
 }
