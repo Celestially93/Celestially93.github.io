@@ -8,9 +8,25 @@
 }
 
 
-//Toggle menu of small screen
+//Toggle menu for small screen
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-//
+//Pancake message that appears only on Friday's
+
+{
+    var now = new Date();
+    var dayOfWeek = now.getDay();
+    
+    let message; 
+    
+    if (dayOfWeek == 5) {
+        message = "Saturday 9:00a.m = Preston Pancakes in the Park!";
+    }
+    else {
+        message = "";
+    }
+
+    document.getElementById ("pancakes").innerHTML = message;
+}
