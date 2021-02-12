@@ -1,3 +1,4 @@
+//Current Date at footer
 {
     var current = new Date();
     var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -6,6 +7,10 @@
     document.getElementById("currentDate").innerHTML = day[current.getDay()] + "," + current.getDate() + " " + month[current.getMonth()] + "" + current.getFullYear();
 }
 
-    function toggleMenu() {
-        document.getElementById("primaryNav").classList.toggle("hide");
-    }
+
+//Toggle menu of small screen
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
+}
+
+//
