@@ -37,14 +37,11 @@
     }
 
     .weather-summary {
-        position: absolute;
+        font-size: 14px;
         margin-left: 50px;
         margin-top: -200px;
-        line-height: 8px;
-        border: #023047 1px solid;
-        box-shadow: #023047 5px;
-        background-color: rgb(2, 48, 71, 0.9);
-        padding: 10px;
+        
+    }
     }
 
     .hero-image img {
