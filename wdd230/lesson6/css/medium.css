@@ -43,6 +43,11 @@
         
         
 }
-
+.weather-summary {
+    font-size: 15px;
+    width: 200px;
+    margin-left: 450px;
+    margin-top: -225px;
+}
 }
 
