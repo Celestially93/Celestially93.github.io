@@ -76,8 +76,13 @@
    .map img {
     width: 300px;
    } 
+
+   .contacts p, h4 {
+    position: relative;
     
     
+    
+}
 }
 
 /*end large */
