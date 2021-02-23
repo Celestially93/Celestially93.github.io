@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     <meta name="author" content="Celestial Destacamento">
-    <meta name="description"
-        content="This page is a prepartion for the site build of the weather site project(Cloud Update) focusing on the town pages.">
+    <meta name="description" content="This page contains images of different weather conditions in different towns.">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,10 +15,10 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <title>Cloud Update: Preston Town Page</title>
+    <title>Cloud Update: Gallery</title>
 </head>
 
-<body>
+<body class="gallery">
     <div id="pancakes">
         <h3>Saturday 9:00a.m = Preston Pancakes in the Park!</h3>
     </div>
@@ -48,6 +44,104 @@
         </nav>
 
     </header>
-    
+    <div class="hero-div">
+        <picture class="hero-image">
+            <source media="(max-width: 300px)" srcset="images/small.jpg">
+            <source media="(max-width: 500px)" srcset="images/medium.jpg">
+            <source media="(max-width: 800px)" srcset="images/large.jpg">
+            <img src="images/wdd230_image_franklinOriginal.jpeg" alt="hero image">
+        </picture>
+    </div>
+    <h2 class="gallery-heading">Weather Gallery</h2>
+    <section class="weather-gallery">
+
+        <div>
+
+            <img class="galleryimg" data-src="images/lightning.jpeg" src="https://dummyimage.com/600x400/000/fff"
+                width="300" alt="lightning">
+
+            <p>Lightning over Greenville</p>
+        </div>
+        <div>
+
+            <img class="galleryimg" data-src="images/coldfront.jpeg" src="https://dummyimage.com/600x400/000/fff"
+                width="300" alt="coldfront">
+
+            <p>Cold front over Springfield</p>
+        </div>
+        <div>
+
+            <img class="galleryimg" data-src="images/rainbow.jpeg" src="https://dummyimage.com/600x400/000/fff"
+                width="300" alt="rainbow">
+
+            <p>Rainbow South of Franklin</p>
+        </div>
+        <div>
+
+            <img class="galleryimg" data-src="images/tornado.jpeg" src="https://dummyimage.com/600x400/000/fff"
+                width="300" alt="tornado">
+
+            <p>Tornado over north Clark County</p>
+        </div>
+        <div>
+
+            <img class="galleryimg" data-src="images/lightning1.jpeg" src="https://dummyimage.com/600x400/000/fff"
+                width="300" alt="lightning">
+
+            <p>Lightning over Greenville</p>
+        </div>
+        <div>
+
+            <img class="galleryimg" data-src="images/snow.jpeg" src="https://dummyimage.com/600x400/000/fff" width="300"
+                alt="snow">
+
+            <p>Snow in Franklin</p>
+        </div>
+    </section>
+
+
+    <div class="contacts">
+        <h4>Cloud Update</h4>
+        <p>30 N 1st E
+            Preston, ID 83236
+            <br>
+            <br>
+            Contact: 999.999.9999
+            Email Address: cloudupdate@cu.com
+
+        </p>
+
+
+        <div class="socials">
+
+            <a href="facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Logo" width="40"></a>
+            <a href="instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram Logo" width="40"></a>
+            <a href="twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter Logo" width="40"></a>
+            <a href="pinterest.com" target="_blank"><img src="images/pinterest.png" alt="Twitter Logo" width="40"></a>
+        </div>
+        <div class="map">
+            <a href="https://www.google.com/maps?q=preston+town+connecticut&rlz=1C5CHFA_enPH863PH863&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi3xp-TntzuAhVSeXAKHXALC9EQ_AUoAXoECAcQAw"
+                target="_blank"><img src="images/prestonmap.png" alt="Preston Map" width="200"></a>
+
+        </div>
+    </div>
+
+
+
+
+    <footer>
+
+        &copy; Cloud Update | Attributions | Celestial Destacamento
+        <p id="currentDate"></p>
+
+    </footer>
+
+    <script src="scripts/preston-5.js"></script>
+    <script src="scripts/gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/webfontload.js"></script>
+
+
 </body>
+
 </html>
