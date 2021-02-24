@@ -76,12 +76,17 @@
 .galleryimg {
     padding: 10px;
     border: 1px solid var(--secondary-color);
+    
    
     
 }
 .galleryimg:hover {
     box-shadow: 5px 10px 18px gray;
 }
+.galleryimg img {
+    width: 100%;
+}
+
 
 }
 
