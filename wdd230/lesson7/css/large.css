@@ -69,16 +69,17 @@
 }
 .weather-gallery {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     
 }
 .galleryimg {
     padding: 10px;
     border: 1px solid var(--secondary-color);
+   
     
 }
-.weather-gallery:hover {
+.galleryimg:hover {
     box-shadow: 5px 10px 18px gray;
 }
 
