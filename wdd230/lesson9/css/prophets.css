@@ -37,6 +37,10 @@ main {
     box-shadow: 20px 20px 100px gray;
    
 }
+footer {
+    text-align: center;
+    padding: 10px;
+}
 
 @media only screen and (min-width: 528px) {
     .cards {
