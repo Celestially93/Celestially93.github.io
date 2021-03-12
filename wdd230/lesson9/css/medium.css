@@ -1,0 +1,67 @@
+@media only screen and (min-width: 560px) {
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav {
+        background-color: #023047;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .8rem;
+        border-right: 1px solid;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    nav ul li a:hover {
+        background-color: #F2BB05;
+    }
+
+    
+
+    .flower {
+        width: 100%;
+        
+        
+}
+.weather-summary {
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: -200px;
+    
+}
+.weather-gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    
+    
+}
+.weather-gallery img {
+    width: 95%;
+}
+.gallery {
+    max-width: 960px;
+        margin: auto;
+}
+}
+

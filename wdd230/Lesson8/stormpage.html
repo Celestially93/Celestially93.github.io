@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Celestial Destacamento">
-    <meta name="description" content="This page contains images of different weather conditions in different towns.">
+    <meta name="description" content="This page has a form that needs to be filled out when someone needs to report a severe wather condition">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <title>Cloud Update: Gallery</title>
+    <title>Cloud Update: Severe Weather Report</title>
 </head>
 
 <body class="gallery">
@@ -52,78 +52,81 @@
             <img src="images/hero1.jpg" alt="hero image">
         </picture>
     </div>
-<form class="input">
-    <div class="details">
-        <label for="name">Full Name: </label>
-        <input type="text" name="name" id="name" required>
-    </div>
-    <div class="details">
-        <label for="email">Email Address: </label>
-        <input type="email" name="email" id="email" required placeholder="aaa@mail.com">
-    </div>
-    <div class="details">
-        <label for="phonenumber">Phone Number: </label>
-        <input type="tel" name="phonenumber" id="phonenumber" required>
-    </div>
-    <div class="details">
-        <label for="zipcode">Zip Code: </label>
-        <input type="number" name="zipcode" id="zipcode" required>
-    </div>
-    <div class="details">
-        <label for="email">Storm Date: </label>
-        <input type="date" name="stormdate" id="stormdate">
-    </div>
-    <div class="details">
+    <main class="stormreport">
+        
+        <h1>Report Severe Weather</h1>
+        <form method="get">
+            
+        <fieldset class="contactinfo">
+            <legend>Contact Information</legend>
+            <label class="contact">Full Name <br> <input type="text" name="fullname" placeholder="John Doe" required pattern="[A-Za-z\s]{5,}"></label><br><br>
+            <label class="contact">Email Address <br> <input type="email" name="email" placeholder="aaaa.mail.com" required></label><br><br>
+            <label class="contact">Phone Number <br> <input type="tel" name="phonenumber" placeholder="123456789" required></label><br><br>
+            <label class="contact">Zip Code <br> <input type="number" name="zipcode" placeholder="12345" required></label><br><br>
+       </fieldset>
+          
+       <fieldset>
+        <legend>Storm Details</legend>
+            <label class="details">Date of Storm <br><input type="date" name="date"></label><br><br>
+            <div>Storm Type</div>
+           <label class="dropdown">
+                <select name="type">
+                <option value="">Select Type</option>
+                <option value="hail">Hail</option>
+                <option value="hurricane">Hurricane</option>
+                <option value="flashflood">Flash Flood</option>
+                <option value="tstorm">Thunderstorm</option>
+                <option value="tornado">Tornado</option>
+            </select>
+        </label><br><br>
 
-        <label for="stormtypelist">Storm Type</label>
-        <input list="stormtype" name="stormtype" id="stormtypelist">
-        <datalist id="stormtype">
+            <label class="stormseverity"> Storm Severity
+               
+                <br><input type="range" class="rating" value="5" min="1" max="10" >
+                <datalist> 
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                </label><br><br>
+                
+                <label class="stormregion">
+                Storm Region
+               <br> <select name="region">
+                <option disabled selected value="">Select Region</option>
+                    <option value="hail">Preston</option>
+                    <option value="hurricane">Soda Springs</option>
+                    <option value="flashflood">Fish Haven</option>
+                </select>
+                </label><br><br>
 
-            <option value="Flashflood">Flash Flood</option>
-            <option value="Hail">Hail</option>
-            <option value="Hurricane">Hurricane</option>
-            <option value="Thunderstorm">Thunderstorm</option>
-            <option value="Tornado">Tornado</option>
-        </datalist>
-    </div>
-
-
-    <div class="details">
-        <label for="stormseverity">Storm Severity: </label>
-        <input type="range" name="stormseverity" id="stormseverity" min="0" max="10">
-    </div>
-    <div class="details">
-        <label for="stormregion">Storm Region: </label>
-        <select name="stormregion" id="stormregion">
-            <option value="selectregion" disabled>Select Region</option>
-            <option value="Preston">Preston</option>
-            <option value="SodaSprings">Soda Springs</option>
-            <option value="FishHaven">Fish Haven</option>
-        </select>
-    </div>
-    <div class="details">
-        <form>
-            <p>Danger Level:</p>
-            <input type="radio" id="yes" name="answer" value="yes">
-            <label for="yes">Yes</label><br>
-            <input type="radio" id="maybe" name="answer" value="maybe">
-            <label for="maybe">Maybe</label><br>
+                <div>Are you in danger?</div>    
+            <label class="radio"><input type="radio" name="danger" value="yes"> Yes</label>
+            <label class="radio"><input type="radio" name="danger" value="maybe"> Maybe</label>
+            
+       </fieldset>
+   
+       <fieldset>
+        <legend>Additional Information</legend>  
+        <label class="additinalinfo">
+            <textarea name="additionalinfo" rows="10" cols="50" placeholder="Additional important information"></textarea></label><br>
+      
+                  
+      <input type="submit" value="Sumbit Report" class="submitbutton">  
+        </fieldset>      
+     
+        
         </form>
-    </div>
-    <div class="details">
-        <label for="additionalinfo">Additional Information</label><br>
-        <textarea id="additionalinfo" name="additionalinfo" rows="8" cols="43"></textarea>
-    </div>
-
-    <div class="details">
-        <form>
-        <input type="submit" value="Submit">
-    </form>
-    </div>
-
-</form>
-
-
+    
+    </main>
 
     <div class="contacts">
         <h4>Cloud Update</h4>
