@@ -36,10 +36,15 @@
         background-color: #F2BB05;
     }
 
+    div.cards {
+        max-width: 600px;
+        margin: 10px auto;
+    }
+
 
     .cards section {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
         max-width: 100%;
     }
 
@@ -61,7 +66,6 @@
     .cards .imgbox {
         align-self: center;
     }
-
 
 
 

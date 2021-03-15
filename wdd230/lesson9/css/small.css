@@ -117,6 +117,12 @@ nav ul.hide {
 
 }
 
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+    width: 100%;
+}
+
 .weather-summary {
     font-size: 12px;
     width: 200px;
@@ -197,38 +203,39 @@ h4 {
 
 div.cards {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
+    max-width: 400px;
     gap: 10px;
-    margin: auto;
-    
+    margin: 2rem auto;
 }
 
 .cards p,
 .cards p1,
 .cards p2 {
+    color: var(--secondary-color);
     display: block;
     padding: 10px;
     margin: 0;
-    color: var(--secondary-color);
+
 }
 
 .cards h2 {
-
+    color: var(--secondary-color);
     padding: 10px;
     margin: 0;
-    color: var(--secondary-color)
 }
 
 .cards h3 {
+    color: var(--secondary-color);
     font-style: italic;
     padding: 10px;
+    ;
     margin: 0;
-    color: var(--secondary-color)
 }
 
 .cards section {
     display: block;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     color: white;
     margin: 0 auto;
     padding: 0;
@@ -237,5 +244,11 @@ div.cards {
 .cards img {
     object-fit: contain;
     display: block;
+    width: 100%;
 }
 
+.articleimage {
+    max-width: 100%;
+    
+
+}

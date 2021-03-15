@@ -48,14 +48,20 @@
     <main>
         
         <div class="hero-div">
-            <div class="hero-image">
-                <img src="images/hero1.jpg" alt="hero image">
+            <picture class="hero-image">
+                 <source media="(max-width: 300px)" srcset="images/herosmall.jpg">
+               <source media="(max-width: 500px)" srcset="images/heromedium.jpg">
+                
+                   <img src="images/hero1.jpg" alt="hero image">
+                </picture>
                 <div class="cards"></div> 
         <section class="article">
             
             <h2>Article Title</h2>
             <p class="author">By Celestial Destacamento</p>
-            <img class="people" src="images/article5.jpg">
+            <div class="articlediv">
+            <img class="articleimage" src="images/article5.jpg" alt="people laughing">
+        </div>
 
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, doloremque? In dolorum ea iste culpa
@@ -123,7 +129,7 @@
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlEaAKvA3CIUFi9MbB7U2EMwWqjUIhzpE&callback=initMap&libraries=&v=weekly"
                 async
               ></script>
-            </div></div>
+           
 
             </div>
         </div>
