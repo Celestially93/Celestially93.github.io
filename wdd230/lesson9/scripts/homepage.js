@@ -102,3 +102,19 @@ let imagesToLoad = document.querySelectorAll('img[data-src]');
                   
                   document.querySelector('div.cards').appendChild(card);}
             }});
+
+            //Map
+            function initMap() {
+              
+          const preston = { lat: 42.0963133, lng: -111.8766173 };
+             
+          const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 9,
+                center: preston,
+              });
+              
+          const marker = new google.maps.Marker({
+                position: preston,
+                map: map,
+              })};
+      

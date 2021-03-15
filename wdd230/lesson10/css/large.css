@@ -1,0 +1,83 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    main,nav {
+        max-width: 960px;
+        margin: auto;
+    }
+    
+        
+    }
+    nav ul li a {
+        color: white;
+    }
+    nav ul li a:hover {
+        background-color: #F2BB05;
+    }
+    
+    .hero-image img {
+        width: 100%;
+        height: 300px;
+        display: flex;
+    
+    }
+    .weather-summary {
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: -305px;
+    }
+    
+    .contacts {
+        text-align: left;
+        display: block;
+        padding: 10px;
+        margin-top: 318px;
+        color: black;
+        background-color: #F0F0C9;
+    }
+    .contacts p {
+        position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        line-height: 15px;
+    
+    }
+    .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #F0F0C9;
+       
+        
+    }
+    
+    
+    .people {
+        
+        float: right;
+        clear: both;
+        padding: 10px;
+       width: 50%;
+       
+    }
+   .map {
+       float: left;
+       clear: both;
+       margin-top: -220px;
+       
+     }
+   .map img {
+    width: 300px;
+   } 
+
+   .contacts p, h4 {
+    position: relative;
+    
+    
+    
+}
+
+
+/*end large */
