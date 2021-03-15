@@ -172,12 +172,6 @@ nav ul.hide {
     margin: 2px;
 }
 
-   
-.articleimage {
-    display: block;
-    width: 100%;
-    
-}
 
 .weather-forecast {
     display: inline-flex;
@@ -254,5 +248,12 @@ nav ul.hide {
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
+
+   
+.articleimage {
+    display: block;
+    width: 100%;
+    
 }
 

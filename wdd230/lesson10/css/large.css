@@ -6,7 +6,7 @@
     }
     
         
-    }
+    
     nav ul li a {
         color: white;
     }
@@ -54,14 +54,8 @@
     }
     
     
-    .articleimage {
-        
-        float: right;
-        clear: both;
-        padding: 10px;
-       width: 50%;
-       
-    }
+  
+    
    .map {
        float: left;
        clear: both;
@@ -75,9 +69,13 @@
    .contacts p, h4 {
     position: relative;
     
-    
-    
+}
+.articleimage {
+    float: right;
+    max-width: 50%;
+    padding: 10px;
 }
 
 
 /*end large */
+}
