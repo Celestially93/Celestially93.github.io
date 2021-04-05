@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Celestial Destacamento">
+    <meta name="description" content="This page needs to be filled out of someone wants to avail services from Naga City Lead.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Naga City Lead - Chamber of Commerce</title>
+</head>
+
+<body class="signup"> 
+    <header>
+
+        <div class="sitename">
+            <img class="logo" src="images/logo.png" width="50" alt="Naga Ciy Lead Logo">
+
+            <h1>Naga City Lead</h1>
+            <p class="tagline">Together We Thrive!</p>
+        </div>
+        
+        
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+
+                <li><a href="./">Home</a></li>
+                <li class="active"><a href="services.html">Services</a></li>
+                <li><a href="business.html">Business</a></li>
+                <li><a href="citydirectory.html">City Directory</a></li>
+                <li><a href="join.html">Join Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="hero-div">
+        <picture class="hero-image">
+            <source media="(max-width: 300px)" srcset="images/hero1small.jpg">
+            <source media="(max-width: 500px)" srcset="images/hero1medium.jpg">
+
+            <img src="images/hero1.jpg" alt="hero image">
+        </picture>
+        </div>
+    
+   
+
+
+        <main class="joinus">
+        
+            <h1>Avail Services</h1>
+            <form method="get" action="avail.html">
+
+                <fieldset>
+                    <legend>Basic Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Cellphone Number* <input type="tel" name="cellnumber" placeholder="123456789" required></label>
+                </fieldset>
+
+                
+                <fieldset>
+                    <legend class="top">Business Information</legend>
+                    <label class="top">Business Name* <input type="text" name="bname" required></label>
+                    <label class="top">Business Address <input type="text" name="baddress"></label>
+                    <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+                    <div class="description">
+                  <label class="top">Business Description<br><textarea name="businessdescription" rows="10" cols="45" placeholder="Pick up and delivery services."></textarea></label>
+                </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Service/s to be Availed</legend>
+                    <label class="top1"><input type="radio" name="services">Online Advertising</label>
+                    <label class="top1"><input type="radio" name="services">Book an Event</label>
+                    <label class="top1"><input type="radio" name="services">Website Development for Marketinf</label>
+                    
+                </fieldset>
+               <input type="submit" value="Avail Service/s" id="submitbutton">
+
+
+</form>
+        
+
+            <div class="contacts">
+                <h4>Naga City Lead</h4>
+                <p>Concepcion Grande Naga, City<br>
+                    4400
+                    <br>
+                    <br>
+                    Contact: 999.222.888<br>
+                    Email Address: nagacitylead@ncl.com
+
+                </p>
+
+
+                <div class="socials">
+
+                    <a href="facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Logo"
+                            width="40"></a>
+                    <a href="instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram Logo"
+                            width="40"></a>
+                    <a href="twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter Logo"
+                            width="40"></a>
+                    <a href="pinterest.com" target="_blank"><img src="images/pinterest.png" alt="Twitter Logo"
+                            width="40"></a>
+                </div>
+
+                <div class="map">
+
+
+                </div>
+
+            </div>
+       
+
+
+
+
+        <footer>
+
+            &copy; Naga City Lead | Attributions | Celestial Destacamento
+            <p id="currentDate"></p>
+
+        </footer>
+
+    
+    <script src="scripts/naga.js"></script>
+    
+
+</body>
+
+</html>
