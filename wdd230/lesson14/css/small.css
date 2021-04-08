@@ -152,6 +152,25 @@ body {
     background-color: var(--primary-color);
     color: black;
     padding: 10px;
+    
+   
+}
+.fborder {
+    border:1px solid gray;
+    padding: 10px;
+    
+    
+    
+    
+}
+.forecastborder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+.fborder img {
+    width: 100%;
 }
 
 .events {
