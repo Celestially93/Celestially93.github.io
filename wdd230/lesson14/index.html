@@ -61,15 +61,29 @@
             <div class="main">
         
             <div class="weather-summary">
-                <p>Currently:</p>
-                <p>Temperature:</p>
-                <p>Humidity:</p>
-
+                <h2>Weather Summary</h2>
+                   
+                    <p>Currently: <span id="current"></span></p>
+                    <p>Temperature: <span id="temperature"></span>&#8451;</p>
+                    <p>Humidity: <span id="humidity"></span>kph</p>
+                    <p>Windspeed: <span id="windspeed"></span>&#8451;</p>
             </div>
             <div class="forecast">
-                <h3>Three Day Forecast</h3>
-            </div>
+                <h2>Three Day Forecast</h2>
+                <p class="weatherforecast"><span id="days1"></span></p>
+                
+                <p class="forecast"><span id="day1"></span>&#8451;</p>
 
+                <p class="weatherforecast"><span id="days2"></span></p>
+               
+                <p class="forecast"><span id="day2"></span>&#8451;</p>
+
+                <p class="weatherforecast"><span id="days3"></span></p>
+               
+                <p class="forecast"><span id="day3"></span>&#8451;</p>
+
+                
+</div>  
           
                 
             <div class="purpose">
@@ -85,8 +99,8 @@
                  
                 <h2>Porta Mariae</h2>
                 <div class="purposeimage">
-                <img src="images/nagahisto1.jpg" width="200" alt="Porta Mariae at day day.">
-                <img src="images/nagahisto2.jpg" width="200" alt="Cathedral.">
+                <img src="images/naga1.jpeg" data-src="https://dummyimage.com/600x400/000/fff" width="200" alt="Porta Mariae at day day.">
+                <img src="images/naga2.jpeg" data-src="https://dummyimage.com/600x400/000/fff" width="200" height="373" alt="Cathedral.">
             </div><br>
                 <p>
                     The Porta Mariae (Latin, "Marian Gate") is a triumphal arch in Naga City commemorating the
@@ -179,10 +193,7 @@
                             width="40"></a>
                 </div>
 
-                <div class="map">
-
-
-                </div>
+                
 
             </div>
         </div>
@@ -192,15 +203,37 @@
 
         <footer>
 
-            &copy; Naga City Lead | Attributions | Celestial Destacamento
+            &copy;   Naga City Lead | Attributions | Celestial Destacamento
             <p id="currentDate"></p>
 
         </footer>
+    
+
+    
+
 
     </div>
-    <script src="scripts/naga.js"></script>
+    <div id="map"></div>
+
+    <script src="scripts/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="scripts/webfontload.js"></script>
+    <script>
+        function initMap(){
+            var location = {lat: 13.620470, lng: 123.219238};
+            var map = new google.maps.Map (document.getElementById("map"),{
+                zoom:4,
+                center: location
+            });
+            var marker = new google.maps.Marker ({
+                position: location,
+                map: map
+            });
+        
+        
+        }
+    </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPi359zkcJNhjmhZPp7xMQcD257PxZDho&callback=initMap"></script>
     
 
 </body>

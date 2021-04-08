@@ -344,9 +344,8 @@ form label.top input:required:valid {
 .ourservices a:visited {
     color: rgb(74, 83, 131)
 }
-.ourservices a:active {
-    color: black;
-}
+
+
 .business {
     background-color: var(--accent1-color);
     border-radius: 10px;
@@ -363,4 +362,32 @@ form label.top input:required:valid {
 }
 .business img {
     box-shadow: 15px 10px 18px #404E4D;
+}
+.directory {
+    background-color: var(--accent1-color) ;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    
+
+    
+   
+}
+.businesscards {
+    display: grid;
+    grid-gap: 40px;
+    padding:10px;
+}
+    
+.home {
+    width: fit-content;
+}
+.businesscards a:hover {
+    color:steelblue;
+}
+.businesscards a:visited {
+    color: rgb(74, 83, 131)
+}
+.tdforecast {
+    border: 1px solid gray;
 }
