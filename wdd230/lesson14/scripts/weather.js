@@ -47,7 +47,7 @@ fetch(apiURL)
 });
 */
 
-const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=1698829&APPID=c1dcfb6c8efcda936d6f6f66d54711d8&units=metric";
+const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=1698829&APPID=632c14c053cc10b594e70f5cb1b4d0f1&units=metric";
 
 fetch(apiForecastURL)
   .then((response) => response.json())
