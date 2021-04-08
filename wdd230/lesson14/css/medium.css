@@ -59,6 +59,7 @@ nav  {
     grid-template-columns: 1fr 1fr ;
     grid-gap: 15px;
     
+    
 }
 .ad {
     grid-column: 1/2;
