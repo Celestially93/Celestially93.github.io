@@ -159,6 +159,7 @@ body {
     border:1px solid gray;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 15px 10px 8px #404E4D;;
     
     
     
@@ -174,7 +175,7 @@ body {
 .forecast p {
     text-align: center;
 }
-.fborder img {
+.fborder >img {
     display: block;
     width: 40%;
     margin: auto;
@@ -183,6 +184,7 @@ body {
     border: 1px solid gray;
     padding: 32px;
     border-radius: 10px;
+    box-shadow: 15px 10px 18px #404E4D;;
 }
 .events {
     text-align: center;
