@@ -34,7 +34,7 @@ nav  {
 }
 
 
-.forecast {
+.ad {
     grid-column: 1;
     grid-row: 1;
 
@@ -60,7 +60,7 @@ nav  {
     grid-gap: 15px;
     
 }
-.ad {
+.forecast {
     grid-column: 1/2;
     grid-row: 3;
     grid-gap: 10px;
