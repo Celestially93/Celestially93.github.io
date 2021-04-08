@@ -423,3 +423,9 @@ form label.top input:required:valid {
 .tdforecast {
     border: 1px solid gray;
 }
+#map {
+    padding: 0;
+    margin:0;
+    height: 300px;
+    width: 100%;
+}
