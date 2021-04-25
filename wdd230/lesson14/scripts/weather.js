@@ -9,15 +9,15 @@ fetch(apiURL)
     document.getElementById("current").textContent = jsObject.current.weather[0].description;
     document.getElementById("humidity").textContent = jsObject.current.humidity;
     document.getElementById("windspeed").textContent = jsObject.current.wind_speed;
-    
 
-    
+
+
 
 
   });
 
-  function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("hide");
+function toggleMenu() {
+  document.getElementById("primaryNav").classList.toggle("hide");
 }
 
 
@@ -26,22 +26,20 @@ const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=1698
 fetch(apiForecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    
+
 
     const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
     let newList = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
-    
-    for (let day = 0; day <= 2; day ++) {
-        let d = new Date(newList[day].dt_txt);
-        document.getElementById(`days${day+1}`).textContent = dayOfWeek[d.getDay()];
-        document.getElementById(`day${day+1}`).textContent = newList[day].main.temp;
 
-        const imgalt = newList[day].weather[0].description;
-        const imagesrc = 'https://openweathermap.org/img/wn/' + newList[day].weather[0].icon + '@2x.png';
-        document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
-        document.getElementById(`icon${day+1}`).setAttribute('alt', imgalt);
+    for (let day = 0; day <= 2; day++) {
+      let d = new Date(newList[day].dt_txt);
+      document.getElementById(`days${day+1}`).textContent = dayOfWeek[d.getDay()];
+      document.getElementById(`day${day+1}`).textContent = newList[day].main.temp;
+
+      const imgalt = newList[day].weather[0].description;
+      const imagesrc = 'https://openweathermap.org/img/wn/' + newList[day].weather[0].icon + '@2x.png';
+      document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
+      document.getElementById(`icon${day+1}`).setAttribute('alt', imgalt);
     }
 
-});
-
-
+  });

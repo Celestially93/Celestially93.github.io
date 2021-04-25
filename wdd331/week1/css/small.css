@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root {
+    --primary-color: #6495ED;
+    --secondary-color: #FAEBD7;
+    --accent1-color:  #DEB887;
+    --accent2-color: #6495ED;
+    --heading-font: 'Lora', serif;
+    --paragraph-font: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 30px;
+    text-align: right;
+   
+  
+}
+header a{
+    color:var(--secondary-color);
+}
+main {
+    background-color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    padding: 10px;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+}
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: var(--paragraph-font);
+    line-height: 44px;
+}
+nav ul li a:visited{
+    color:var(--secondary-color);
+
+}
+
+nav ul li a:hover {
+    color:white;
+    text-decoration: underline;
+
+}
+nav ul li a:active{
+    color:var(--accent1-color);
+
+}
+
+
+
+article {
+    background-color: whitesmoke;
+    padding: 12px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+    
+    
+}
+article img {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+article a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+article a:hover{
+    color:var(--accent2-color);
+}
+article a:active {
+    color:var(--accent1-color);
+}
+.post-content p>a {
+    color: var(--accent2-color);
+}
+.post-date {
+    color: gray;
+    
+}

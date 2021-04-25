@@ -21,25 +21,17 @@ fetch("directory/citydirectory.json")
                 let p1 = document.createElement ("p");
                 let a = document.createElement ("a");
                 
-               
-
-                h2.textContent = businessName [i].name;
+               h2.textContent = businessName [i].name;
                 p.textContent = "Contact Number:" + " " + businessName[i].contactNumber;
                 p1.textContent = "Email Address:" + " " + businessName[i].emailAddress;
                 a.textContent = "Website:" + " " + businessName[i].website;
                 a.setAttribute("href", businessName[i].website);
+                
                
-                
-
-                
-
                 businesscards.appendChild (h2);
                 businesscards.appendChild (p);
                 businesscards.appendChild (p1);
                 businesscards.appendChild (a);
-                
-                
-                
                 
                 
                 document.querySelector("div.businesscards").appendChild (businesscards);
