@@ -22,10 +22,9 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
 
+    
     document.getElementById("temperature").textContent = jsObject.current.temp;
     document.getElementById("current").textContent = jsObject.current.weather[0].description;
-    document.getElementById("humidity").textContent = jsObject.current.humidity;
-    document.getElementById("windspeed").textContent = jsObject.current.wind_speed;
 });
 
 // Get the user input and add it to the list of to do items.
