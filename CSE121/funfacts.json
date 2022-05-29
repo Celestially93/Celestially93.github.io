@@ -1,0 +1,17 @@
+{
+    "funfacts": [
+      {
+        "item": "Laundry Tips",
+        "fact": "The first washing machine was called 'Thor'.",
+        "image": "images/laundry.png"
+        
+      },
+      {
+        "item": "Gymn Tips",
+        "fact": "For every pound of muscle gained, the body burns 50 extra calories every day.",
+        "image": "images/gymn.png"
+      }
+      
+      
+    ]
+  }
